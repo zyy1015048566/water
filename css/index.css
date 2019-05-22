@@ -1,0 +1,98 @@
+header {
+    width: auto;
+    height: 0.88rem;
+    color: #4ebbfe;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+}
+.search{
+    padding: 0.17rem 0.22rem;
+    height: 0.6rem;
+}
+.search >span{
+    float: left;
+    color:#4ebbfe;
+    font-size:0.28rem;
+    line-height: 0.6rem;
+    margin-right: 0.1rem;
+}
+.iconfont icon-xiala{
+    height: 0.17rem;
+    width: 0.1rem;
+    float: left;
+}
+.search >a{
+    float: right;
+    width: 5.93rem;
+    height: 0.6rem;
+    border: 0.01rem solid #4ebbfe;
+    border-radius: 0.3rem;
+}
+.banner{
+    width: 100%;
+    height: 3rem;
+    background-color: #f7fdff;
+}
+.category{
+    height: 6.9rem;
+    padding: 0.22rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.category >li{
+    width: 2rem;
+    height:1.94rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*align-content: center;*/
+}
+.category >li >a{
+    width: 100%;
+    height: 100%;
+}
+.category >li >a div{
+    width: 1.13rem;
+    height: 1.13rem;
+
+}
+.category >li >a >p{
+    width: 1.5rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    text-align: center;
+    color: #8e9397;
+}
+footer{
+    position: fixed;/*定到最下面*/
+    left: 0;
+    bottom: 0;
+    height: 0.98rem;
+    width: 100%;
+    background: #f1f9ff;
+    padding: 0 0.22rem;
+    -webkit-box-sizing:border-box ;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+footer >a{
+    width: 0.7rem;
+    height: 100rem;
+    font-size: 0.24rem;
+    color:#4ebbfe ;
+    text-align: center;
+    padding-top: 0.1rem;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+footer > a.hot{
+    opacity: 1;
+}
+footer >a >img{
+    width: 0.5rem;
+    height: 0.5rem;
+}

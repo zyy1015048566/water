@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    list-style:none;
+    text-decoration: none;
+}
+header{
+    height: 0.88rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    padding: 0 0.22rem;
+    box-shadow: 0px 3px 43px 0px  rgba(41, 167, 255, 0.13);
+}
+header a{
+    color: #4ebbfe;
+}
+.box{
+    padding: 1.8rem;
+    margin-top: 1.6rem;
+}
+.box img{
+    width: 4.5rem;
+    height: 5rem;
+}
