@@ -48,22 +48,24 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
     /*align-content: center;*/
 }
 .category >li >a{
     width: 100%;
     height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
 }
 .category >li >a div{
     width: 1.13rem;
     height: 1.13rem;
-
 }
 .category >li >a >p{
-    width: 1.5rem;
     height: 0.23rem;
     font-size: 0.24rem;
-    text-align: center;
+    /*text-align: center;*/
     color: #8e9397;
 }
 footer{
